@@ -46,6 +46,6 @@ print("\n")
 print("Total Damage: " + str(totalDamage))
 totalHealth = totalDamage // 2
 print("Total Healing: " + str(totalHealth))
-print("Domain bonus: " + str(lifeBonus))
+print("Domain Bonus: " + str(lifeBonus))
 totalHealth += lifeBonus
 print("Grand Total Healed: " + str(totalHealth))
