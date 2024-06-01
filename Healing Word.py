@@ -11,15 +11,29 @@ proficiencyBonus = 4
 abilityBonus = 0
 spellcastingModifier = proficiencyBonus + abilityBonus
 
+domain = "Life"
+
 # Healing Word
 total = 0
 level = 0
+
+# Verify the spell is being cast at a valid level
 while level > 9 or level < 1:
     level = int(input("What level are you casting the spell at? Level must be between 1 and 9 inclusive "))    
+
+# Roll and output dice, then add to a running total
 for i in range (level):
     roll = d4()
     print(roll, end=" ")
     total += roll
-total += spellcastingModifier
+
+# Calculate and output final total
+if domain == "Life"
+    lifeBonus = 2 + level
+else:
+    lifeBonus = 0
+
+total += spellcastingModifier + lifeBonus
+
 print("\n")
 print(total)
