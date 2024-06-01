@@ -1,6 +1,5 @@
 # Import libraries
 import random
-import time
 
 # Define dice functions
 def d6():
