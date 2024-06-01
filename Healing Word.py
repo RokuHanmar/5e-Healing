@@ -28,12 +28,14 @@ for i in range (level):
     total += roll
 
 # Calculate and output final total
-if domain == "Life"
+if domain == "Life":
     lifeBonus = 2 + level
 else:
     lifeBonus = 0
 
-total += spellcastingModifier + lifeBonus
-
 print("\n")
-print(total)
+print("Total: " + str(total))
+print("Spellcasting bonus: " + str(spellcastingModifier))
+print("Domain bonus: " + str(lifeBonus))
+total += spellcastingModifier + lifeBonus
+print("Grand total: " + str(total)
