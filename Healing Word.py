@@ -10,10 +10,9 @@ def d4():
 proficiencyBonus = 4
 abilityBonus = 0
 spellcastingModifier = proficiencyBonus + abilityBonus
-
 domain = "Life"
 
-# Healing Word
+# Define spell variables
 total = 0
 level = 0
 
