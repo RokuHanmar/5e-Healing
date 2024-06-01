@@ -15,7 +15,9 @@ spellcastingModifier = proficiencyBonus + wisdomBonus
 # Healing Word
 def healingWord():
     total = 0
-    level = int(input("What level are you casting the spell at? "))
+    level = 0
+    while level > 9 or level < 1:
+        level = int(input("What level are you casting the spell at? Level must be between 1 and 9 inclusive "))    
     for i in range (level):
         roll = d4()
         print(roll, end=" ")
