@@ -39,3 +39,4 @@ print("Healing: " + str(totalHealth))
 print("Domain Bonus: " + str(lifeBonus))
 totalHealth += lifeBonus
 print("Total Healing: " + str(totalHealth))
+print("Don't forget to roll the d4")
