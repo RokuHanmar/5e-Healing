@@ -38,3 +38,4 @@ print("Spellcasting bonus: " + str(spellcastingModifier))
 print("Domain bonus: " + str(lifeBonus))
 total += spellcastingModifier + lifeBonus
 print("Grand total: " + str(total)
+print("Don't forget to roll the d4")
