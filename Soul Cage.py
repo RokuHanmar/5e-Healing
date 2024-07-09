@@ -35,6 +35,7 @@ while remainingUses >= 1:
     print("Domain Bonus: " + str(lifeBonus))
     total += lifeBonus
     print("Grand total: " + str(total))
+    print("Don't forget to roll the d4")
 
     # Check if Soul Cage can be used again
     remainingUses -= 1
