@@ -37,3 +37,4 @@ print("Total: " + str(total))
 print("Domain bonus: " + str(lifeBonus))
 total += lifeBonus + 15
 print("Grand total: " + str(total))
+print("Don't forget to roll the d4")
