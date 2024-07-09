@@ -43,6 +43,7 @@ while remainingUses >= 1:
     print("Domain bonus: " + str(lifeBonus))
     total += lifeBonus
     print("Grand total: " + str(total))
+    print("Don't forget to roll the d4")
 
     # Subtracts one heal from Healing Spirits. If it reaches 0, the spell will end. Otherwise, the program will wait 60 seconds and run again
 
